@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*1440
+------------------------------------------------------------------------------------ */
+@media handheld, only screen and (max-width: 1440px) {
+
+	.hero-wrapper {min-height: 670px;}
+
+	.hero-headline-home {
+	margin-top: 100px;
+	width: 490px;
+	text-align: left;
+	top: 120px;
+	position: absolute;
+	}
+
+}/*End 1440*/
+
+
+/*1200 XL Large desktops
+------------------------------------------------------------------------------------ */
+@media handheld, only screen and (max-width: 1200px) {
+
+	a.home-news-headlines {
+		display: block;
+	}
+
+	.section-home-news ul li span.date {
+		float: left;
+		display: block;
+		margin-top: 4px;
+	}
+
+
+}/*End 1200*/
+
+
+/*992 LG Desktops
+------------------------------------------------------------------------------------ */
+@media handheld, only screen and (max-width: 992px) {
+
+	/*#nav {display: none;}*/
+	header {min-height: 60px;}
+	body {padding-top: 60px;}
+	#logo img {height: 30px; width: auto;}
+	#nav-mobile {display: block;}
+
+	.hero-headline-home {width: 100%; text-align: center; position: relative; margin: 0 auto;}
+
+	#nav {
+		float: none;
+		margin: 0;
+	}
+
+	.menu {
+		position: fixed;
+		overflow: hidden;
+		height: 0;
+		width: 100%;
+		padding: 0;
+		left: 0;
+		top: 65px;
+		opacity: 0;
+		background-color: #161616;
+		-webkit-transition: padding 0.3s, height 0.2s, opacity 0.3s;
+		transition: padding 0.3s, height 0.2s, opacity 0.3s;
+	}
+
+	.menu.open {
+		position: fixed;
+		height: calc(100% - 65px);
+		width: 100%;
+		padding: 15px;
+		left: 0;
+		top: 65px;
+		opacity: 1;
+		background-color: #161616;
+		-webkit-transition: padding 0.3s, height 0.2s, opacity 0.3s;
+		transition: padding 0.3s, height 0.2s, opacity 0.3s;
+		overflow: scroll;
+	}
+
+	#nav.open ul ul li,
+	#nav.open li {
+		line-height: 60px;
+		-webkit-transition: line-height 0.4s;
+		transition: line-height 0.4s;
+	}
+
+	#nav ul {
+		height: 100%;
+	}
+
+	#nav li {
+		font-style: normal;
+		list-style: none;
+		display: block;
+		font-size: 16px;
+		margin-left: 0;
+		line-height: 100%;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		font-weight: 700;
+		-webkit-transition: line-height 0.4s;
+		transition: line-height 0.4s;
+	}
+
+	#nav li.login {
+		border-left: none;
+		padding-left: 0;
+	}
+
+	#nav li.dropdown {
+		color: #fff;
+	}
+
+	#nav ul ul {
+		position: relative;
+		padding: 0;
+		top: -10px;
+		left: 0;
+	}
+
+	#nav ul ul li {
+		width: auto;
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+		line-height: 40px;
+		height: 40px;
+		font-weight: 500;
+	}
+
+	#nav ul ul a {
+		line-height: 100%;
+		padding: 0;
+	}
+
+	footer li {
+	display: none;
+	}
+
+	footer li:first-child {
+	display: block;
+	}
+
+	.section-home-intro img {
+	display: inline-block;
+	width: 90px;
+	height: auto;
+	margin: 10px 12px;
+	}
+
+	.section-home-intro {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	}
+
+}/*End 992*/
+
+
+/*768 MD tablets
+------------------------------------------------------------------------------------ */
+@media handheld, only screen and (max-width: 768px) {
+	.social-icons img {
+		width: auto;
+		height: 26px;
+	}
+
+	.social-icons li {margin-left: 13px;}
+
+	.hero-wrapper video {display: none;}
+	.hero-wrapper-home {
+		background-image: url("../images/hero-mobile.jpg");
+		min-height: 720px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.hero-headline-home {top: 70px; width: 70%;}
+	.hero-headline-home h1 {font-size: 44px;}
+
+	.section-home-intro h3 {
+		font-size: 18px;
+	}
+
+}/*End 768*/
+
+
+/*567 SM Landscape phones
+------------------------------------------------------------------------------------ */
+@media handheld, only screen and (max-width: 567px) {
+	.hero-wrapper video {display: none;}
+
+	.hero-wrapper-home {min-height: 560px;}
+
+	.hero-wrapper {
+		background-image: url("../images/hero-mobile.jpg");
+		min-height: 560px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.hero-headline-home {top: 40px; width: 90%;}
+	.hero-headline-home h1 {font-size: 32px;}
+	.hero-headline-home h4 {font-size: 20px;}
+
+	.parent {height: 244px;}
+
+}/*End 567*/
