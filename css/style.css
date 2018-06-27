@@ -69,7 +69,7 @@ body {
 ------------------------------------------------------------------------------------ */
 
 strong {
-    font-family: Graphik Web;
+  font-family: Graphik Web;
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: normal;
@@ -123,9 +123,6 @@ h5 {
 	font-style: normal;
 	margin: 0 0 20px 0;
 	line-height: 1.7;
-}
-
-h6 {
 }
 
 p {
@@ -450,7 +447,7 @@ footer li {
 	width: 100%;
 	background-color: #fff;
 	overflow: hidden;
-	padding: 0 0 28px 0;
+	padding: 0;
 	min-height: 600px;
 }
 
@@ -463,7 +460,7 @@ footer li {
 
 .hero-wrapper-home {
 	background-image: url("../images/hero-home.jpg");
-		background-position: center;
+	background-position: center;
 	min-height: 760px;
 	overflow: hidden;
 	display: block;
@@ -481,15 +478,14 @@ footer li {
 }
 
 .hero-headline-home {
-	margin-top: 180px;
+	margin-top: 220px;
 	margin-bottom: auto;
-	width: 490px;
-	text-align: left;
-	position: absolute;
+	width: 100%;
+	text-align: center;
 }
 
 .hero-headline-home h1 {
-	font-size: 53px;
+	font-size: 74px;
 	color: #fff;
 	line-height: 1.15;
 }
@@ -530,18 +526,23 @@ a.read-more {
 	display: inline-block;
 	width: 138px;
 	height: auto;
-	margin: 10px 14px;
+	margin: 10px 24px;
 }
 
 .section-home-blocks {
 	background-color: #f5f5f5;
-	padding-top: 80px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.section-home-blocks h2 {
+  margin-bottom: 50px;
 }
 
 .home-block {
 	display: block;
 	overflow: hidden;
+  background-color: #fff;
 	border: 0px solid #E2E2E2;
 	margin-bottom: 26px;
 	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
@@ -549,6 +550,7 @@ a.read-more {
 	-moz-transition: all 180ms ease-in-out;
 	-o-transition: all 180ms ease-in-out;
 	transition: all 180ms ease-in-out;
+  min-height: 467px;
 }
 
 .home-block:hover {
@@ -560,17 +562,28 @@ a.read-more {
 }
 
 .home-block-headline {
-	font-size: 15px;
+	font-size: 22px;
 	line-height: 1.5;
 	font-family: Graphik Web;
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: normal;
 	color: #232323;
-	padding: 24px 18px;
+	padding: 24px 18px 8px 18px;
 	display: block;
-	min-height: 116px;
 	background-color: #fff;
+}
+
+.home-block p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #232323;
+  padding: 0px 18px 24px 18px;
+  display: block;
+  background-color: #fff;
 }
 
 .parent {
@@ -737,10 +750,6 @@ a.home-news-headlines {
 	font-size: 58px;
 	color: #fff;
 	line-height: 1.15;
-}
-
-.hero-headline-home h1 {
-	font-size: 53px;
 }
 
 .hero-wrapper h4 {
