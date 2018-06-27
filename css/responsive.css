@@ -152,6 +152,10 @@
 		height: 26px;
 	}
 
+  .page-wrapper-contact {
+    margin: 40px 0 80px 0;
+  }
+
 	.social-icons li { margin-left: 13px; }
 
 	.hero-wrapper video { display: none; }
