@@ -1,52 +1,39 @@
-@charset "UTF-8";
-/* CSS Document */
+@charset 'UTF-8';
 
-/*1440
------------------------------------------------------------------------------------- */
-@media handheld, only screen and (max-width: 1440px) {
-
-	.hero-wrapper {min-height: 670px;}
+@media handheld, only screen and ( max-width: 1440px ) {
+	.hero-wrapper { min-height: 670px; }
 
 	.hero-headline-home {
-	margin-top: 100px;
-	width: 490px;
-	text-align: left;
-	top: 120px;
-	position: absolute;
+  	margin-top: 100px;
+  	width: 490px;
+  	text-align: left;
+  	top: 120px;
+  	position: absolute;
 	}
+}
 
-}/*End 1440*/
-
-
-/*1200 XL Large desktops
------------------------------------------------------------------------------------- */
-@media handheld, only screen and (max-width: 1200px) {
-
-	a.home-news-headlines {
-		display: block;
-	}
+@media handheld, only screen and ( max-width: 1200px ) {
+	a.home-news-headlines { display: block; }
 
 	.section-home-news ul li span.date {
 		float: left;
 		display: block;
 		margin-top: 4px;
 	}
+}
 
+@media handheld, only screen and ( max-width: 992px ) {
+	header { min-height: 60px; }
+	body { padding-top: 60px; }
+	#logo img { height: 30px; width: auto; }
+	#nav-mobile { display: block; }
 
-}/*End 1200*/
-
-
-/*992 LG Desktops
------------------------------------------------------------------------------------- */
-@media handheld, only screen and (max-width: 992px) {
-
-	/*#nav {display: none;}*/
-	header {min-height: 60px;}
-	body {padding-top: 60px;}
-	#logo img {height: 30px; width: auto;}
-	#nav-mobile {display: block;}
-
-	.hero-headline-home {width: 100%; text-align: center; position: relative; margin: 0 auto;}
+	.hero-headline-home {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+  }
 
 	#nav {
 		float: none;
@@ -69,7 +56,7 @@
 
 	.menu.open {
 		position: fixed;
-		height: calc(100% - 65px);
+		height: calc( 100% - 65px );
 		width: 100%;
 		padding: 15px;
 		left: 0;
@@ -88,9 +75,7 @@
 		transition: line-height 0.4s;
 	}
 
-	#nav ul {
-		height: 100%;
-	}
+	#nav ul { height: 100%; }
 
 	#nav li {
 		font-style: normal;
@@ -112,9 +97,7 @@
 		padding-left: 0;
 	}
 
-	#nav li.dropdown {
-		color: #fff;
-	}
+	#nav li.dropdown { color: #fff; }
 
 	#nav ul ul {
 		position: relative;
@@ -138,75 +121,69 @@
 		padding: 0;
 	}
 
-	footer li {
-	display: none;
-	}
-
-	footer li:first-child {
-	display: block;
-	}
+	footer li { display: none; }
+	footer li:first-child { display: block; }
 
 	.section-home-intro img {
-	display: inline-block;
-	width: 90px;
-	height: auto;
-	margin: 10px 12px;
+  	display: inline-block;
+  	width: 90px;
+  	height: auto;
+  	margin: 10px 12px;
 	}
 
 	.section-home-intro {
-	padding-top: 30px;
-	padding-bottom: 50px;
+  	padding-top: 30px;
+  	padding-bottom: 50px;
 	}
 
-}/*End 992*/
+  .page-wrapper-press ul li {
+    text-align: center;
+  }
 
+  .page-wrapper-press ul li span.date {
+    float: none;
+    display: block;
+  }
+}
 
-/*768 MD tablets
------------------------------------------------------------------------------------- */
-@media handheld, only screen and (max-width: 768px) {
+@media handheld, only screen and ( max-width: 768px ) {
 	.social-icons img {
 		width: auto;
 		height: 26px;
 	}
 
-	.social-icons li {margin-left: 13px;}
+	.social-icons li { margin-left: 13px; }
 
-	.hero-wrapper video {display: none;}
-	.hero-wrapper-home {
-		background-image: url("../images/hero-mobile.jpg");
+	.hero-wrapper video { display: none; }
+
+  .hero-wrapper-home {
+		background-image: url( '../images/hero-mobile.jpg' );
 		min-height: 720px;
 		background-position: center;
 		background-size: cover;
 	}
 
-	.hero-headline-home {top: 70px; width: 70%;}
-	.hero-headline-home h1 {font-size: 44px;}
+	.hero-headline-home { top: 70px; width: 70%; }
+	.hero-headline-home h1 { font-size: 44px; }
 
-	.section-home-intro h3 {
-		font-size: 18px;
-	}
+	.section-home-intro h3 { font-size: 18px; }
+}
 
-}/*End 768*/
-
-
-/*567 SM Landscape phones
------------------------------------------------------------------------------------- */
-@media handheld, only screen and (max-width: 567px) {
-	.hero-wrapper video {display: none;}
-
-	.hero-wrapper-home {min-height: 560px;}
+@media handheld, only screen and ( max-width: 567px ) {
+	.hero-wrapper video { display: none; }
+	.hero-wrapper-home { min-height: 560px; }
 
 	.hero-wrapper {
-		background-image: url("../images/hero-mobile.jpg");
+		background-image: url( '../images/hero-mobile.jpg' );
 		min-height: 560px;
 		background-position: center;
 		background-size: cover;
 	}
 
-	.hero-headline-home {top: 40px; width: 90%;}
-	.hero-headline-home h1 {font-size: 32px;}
-	.hero-headline-home h4 {font-size: 20px;}
+	.hero-headline-home { top: 40px; width: 90%; }
 
-	.parent {height: 244px;}
+  .hero-headline-home h1 { font-size: 32px; }
+	.hero-headline-home h4 { font-size: 20px; }
 
-}/*End 567*/
+	.parent { height: 244px; }
+}
