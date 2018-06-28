@@ -165,6 +165,16 @@ img.center {
 .alignright {float: right;}
 
 .aligncenter {text-align: center;}
+*/
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 
 /* LAY-OUT */
 
@@ -925,19 +935,15 @@ a.button:hover {
   margin: 74px 0 80px 0;
 }
 
-.page-wrapper-developer h2 {
-  font-size: 40px;
-  margin-bottom: 40px;
-}
-
 .page-wrapper-developer .category {
   border: 1px solid #DDDDDD;
   background-image: url( '../images/hero-home.jpg' );
   background-size: 130px 80px;
-  background-position: 30px 30px;
+  background-position: 30px 40px;
   background-repeat: no-repeat;
-  padding: 120px 30px 30px;
+  padding: 130px 30px 30px;
   margin-bottom: 30px;
+  min-height: 376px;
 }
 
 .page-wrapper-developer .category h4 {
@@ -955,6 +961,156 @@ a.button:hover {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
+}
+
+.page-wrapper-developer .category ul {
+  list-style: none;
+  margin-left: -24px;
+}
+
+.page-wrapper-developer .category li {
+  position: relative;
+}
+
+.page-wrapper-developer .category li:before {
+  position: absolute;
+  color: #848484;
+  top: 8px;
+  margin: -5px 0 0 -16px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  content: '\025B8';
+}
+
+.page-wrapper-developer .category a {
+  color: #848484;
+  font-size: 16px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
+.page-wrapper-developer .support {
+  background-color: #F2F2F2;
+  min-height: 350px;
+  margin-top: 40px;
+  padding-top: 80px;
+}
+
+.page-wrapper-developer .support h3 {
+  font-size: 28px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
+.page-wrapper-developer .support a {
+  background-color: inherit;
+  border: 1px solid #BEBEBE;
+  color: #161616;
+  padding: 24px 40px 24px 48px;
+  width: 40%;
+  height: 65px;
+  font-size: 16px;
+  font-family: Graphik Web;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  border-radius: 4px;
+  margin-top: 28px;
+  display: inline-block;
+  width: 270px;
+}
+
+.page-wrapper-developer .support a:before {
+  position: absolute;
+  color: #848484;
+  margin: 0 0 0 -16px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  content: '\025B8';
+}
+
+.page-wrapper-developer .showcasetitle h2 {
+  font-size: 41px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin: 80px 0 0;
+}
+
+.page-wrapper-developer .showcasetitle h3 {
+  font-size: 26px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  color: #747474;
+  margin: 0 0 40px;
+}
+
+.page-wrapper-developer .showcaseimage {
+  background-image: url( '../images/hero-home.jpg' );
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 667px;
+}
+
+.page-wrapper-developer .showcasetext h3 {
+  font-size: 42px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin: 40px;
+}
+
+.page-wrapper-developer .showcasetext p {
+  color: #535353;
+  font-size: 17.5px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.page-wrapper-developer .showcasetext h4 {
+  font-size: 15px;
+  font-family: Graphik Web;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 40px;
+}
+
+.page-wrapper-developer .showcasetext ul {
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.page-wrapper-developer .showcasetext li {
+  display: inline-block;
+  background-color: #F2F2F2;
+  height: 42px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 /* PRESS */

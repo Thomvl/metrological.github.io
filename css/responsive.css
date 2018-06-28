@@ -161,7 +161,7 @@
 	.hero-wrapper video { display: none; }
 
   .hero-wrapper-home {
-		background-image: url( '../images/hero-mobile.jpg' );
+		background-image: url( '../images/home-hero-768-2x.jpg' );
 		min-height: 720px;
 		background-position: center;
 		background-size: cover;
@@ -178,7 +178,7 @@
 	.hero-wrapper-home { min-height: 560px; }
 
 	.hero-wrapper {
-		background-image: url( '../images/hero-mobile.jpg' );
+		background-image: url( '../images/home-hero-320-2x.jpg' );
 		min-height: 560px;
 		background-position: center;
 		background-size: cover;
