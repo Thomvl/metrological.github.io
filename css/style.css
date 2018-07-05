@@ -57,7 +57,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  color: #232323;
+  color: #3B3B3B;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   height: 100%;
@@ -104,68 +104,6 @@ h5 {
   margin: 0 0 20px 0;
   line-height: 1.7;
 }
-
-/*
-p {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.7;
-  margin: 0 0 16px 0;
-}
-
-p.intro {
-	font-style: normal;
-	font-size: 17px;
-	font-weight: bold;
-	color: #232323;
-	line-height: 1.6;
-	margin-bottom: 20px;
-}
-
-
-ul {
-	margin: 0;
-	padding-left: 20px;
-}
-
-ul.list {
-	color: #cbcbcb;
-}
-
-
-p li {
-	margin-bottom: 10px;
-	line-height: 1.5;
-}
-
-a:link {text-decoration: none; color: #232323;}
-a:visited {text-decoration: none; color: #232323;}
-a:hover {text-decoration: underline; color: #232323;}
-a:active {text-decoration: none; color: #232323;}
-
-p a:link {text-decoration: underline;}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-	margin: 0;
-    width: auto\9; /* ie8
-	border: none;
-}
-
-img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.alignleft {float: left;}
-
-.alignright {float: right;}
-
-.aligncenter {text-align: center;}
-*/
 
 .full-width {
   width: 100vw;
@@ -296,13 +234,11 @@ header {
   transform: rotate(180deg);
 }
 
-/*
 #nav-mobile {
   position: absolute;
   float: none;
   display: none;
   cursor: pointer;
-  /*padding: 23px 13px;
   right: 0;
   top: 0;
 }
@@ -364,7 +300,6 @@ header {
 	-webkit-transform: rotate(-45deg); transform: rotate(-45deg);
 	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
 }
-*/
 
 footer {
   width: 100%;
@@ -504,14 +439,6 @@ a.read-more {
   padding-top: 54px;
   padding-bottom: 70px;
 }
-
-/*
-.section-home-intro h3 {
-	color: #6e727a;
-	font-size: 20px;
-	margin-bottom: 26px;
-}
-*/
 
 .section-home-intro img {
 	display: inline-block;
@@ -924,7 +851,136 @@ a.button:hover {
 	margin-bottom: 50px;
 }
 
+/* CAREERS */
 
+.page-wrapper-careers {
+  margin: 74px 0 80px 0;
+}
+
+.page-wrapper-careers h2 {
+  margin: 80px 0 40px 0;
+}
+
+.page-wrapper-careers .intro {
+  font-size: 20px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
+.page-wrapper-careers .text {
+  font-size: 16px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  padding: 40px 0 40px 16px;
+}
+
+.page-wrapper-careers .full-width {
+  background-image: url( '../images/dev-hero-1920-2x.jpg' );
+  background-size: cover;
+  height: 363px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-wrapper-careers blockquote {
+  background-image: url( '../images/dev-hero-1920-2x.jpg' );
+  background-size: 86px 86px;
+  background-repeat: no-repeat;
+  padding: 0;
+  border: none;
+  margin: 60px auto;
+  border: 1px solid red;
+  font-size: 20px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #818181;
+  min-height: 115px;
+}
+
+blockquote p {
+  padding: 0 0 0 120px;
+  line-height: 1.5;
+}
+
+blockquote footer {
+  background-color: transparent;
+  font-size: 16px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  color: #161616;
+  padding: 0 0 0 120px;
+}
+
+blockquote footer:before {
+  content: '';
+}
+
+.page-wrapper-careers ul {
+  margin: 10px 0;
+  padding: 0;
+  border-top: 1px solid #E2E2E2;
+}
+
+.page-wrapper-careers ul li {
+  list-style: none;
+  padding: 28px 0;
+  margin: 0;
+  border-bottom: 1px solid #E2E2E2;
+  overflow: hidden;
+}
+
+.page-wrapper-careers ul li span.date {
+  float: right;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.page-wrapper-careers .detail {
+  margin-top: 120px;
+  background-color: #F8F8F8;
+  font-size: 21px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  padding: 40px 45px 110px;
+}
+
+.page-wrapper-careers .detail h3 {
+  font-size: 40px;
+  margin-top: 50px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.page-wrapper-careers .detail p {
+  margin: 20px 0 50px;
+}
+
+.page-wrapper-careers .detail a {
+  background-color: inherit;
+  border: 1px solid #BEBEBE;
+  color: #161616;
+  padding: 20px 40px;
+  width: 40%;
+  height: 65px;
+  font-size: 18px;
+  font-family: Graphik Web;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  border-radius: 4px;
+}
 
 /* DEVELOPERS */
 

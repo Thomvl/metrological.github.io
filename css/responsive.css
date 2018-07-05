@@ -73,7 +73,6 @@
 		background-color: #161616;
 		-webkit-transition: padding 0.3s, height 0.2s, opacity 0.3s;
 		transition: padding 0.3s, height 0.2s, opacity 0.3s;
-		overflow: scroll;
 	}
 
 	#nav.open ul ul li,
