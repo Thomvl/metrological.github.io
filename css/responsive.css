@@ -20,6 +20,14 @@
 		display: block;
 		margin-top: 4px;
 	}
+
+  .hero-wrapper-press {
+    background-image: url( '../images/press-hero-1024.jpg' );
+  }
+
+  .hero-wrapper-developer {
+    background-image: url( '../images/dev-hero-1024-2x.jpg' );
+  }
 }
 
 @media handheld, only screen and ( max-width: 992px ) {
@@ -144,6 +152,14 @@
     float: none;
     display: block;
   }
+
+  .hero-wrapper-press {
+    background-image: url( '../images/press-hero-768.jpg' );
+  }
+
+  .hero-wrapper-developer {
+    background-image: url( '../images/dev-hero-768-2x.jpg' );
+  }
 }
 
 @media handheld, only screen and ( max-width: 768px ) {
@@ -171,6 +187,14 @@
 	.hero-headline-home h1 { font-size: 44px; }
 
 	.section-home-intro h3 { font-size: 18px; }
+
+  .hero-wrapper-press {
+    background-image: url( '../images/press-hero-414.jpg' );
+  }
+
+  .hero-wrapper-developer {
+    background-image: url( '../images/dev-hero-414-2x.jpg' );
+  }
 }
 
 @media handheld, only screen and ( max-width: 567px ) {
@@ -189,5 +213,18 @@
   .hero-headline-home h1 { font-size: 32px; }
 	.hero-headline-home h4 { font-size: 20px; }
 
+  .hero-headline-press { top: 40px; width: 90%; }
+
+  .hero-headline-press h1 { font-size: 32px; }
+  .hero-headline-press h4 { font-size: 20px; }
+
 	.parent { height: 244px; }
+
+  .hero-wrapper-press {
+    background-image: url( '../images/press-hero-320.jpg' );
+  }
+
+  .hero-wrapper-developer {
+    background-image: url( '../images/dev-hero-320-2x.jpg' );
+  }
 }

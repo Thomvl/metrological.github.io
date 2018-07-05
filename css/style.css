@@ -488,6 +488,11 @@ a.read-more {
 	font-weight: 500;
 	font-style: normal;
 	font-size: 24px;
+  background-image: url( '../images/play-2x.png' );
+  background-size: 60px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
 }
 
 .hero-headline-home a { color: #fff; }
@@ -924,9 +929,10 @@ a.button:hover {
 /* DEVELOPERS */
 
 .hero-wrapper-developer {
-  background-image: url( '../images/hero-home.jpg' );
+  background-image: url( '../images/dev-hero-1920-2x.jpg' );
+  background-size: cover;
   background-position: center;
-  min-height: 768px;
+  min-height: 610px;
   overflow: hidden;
   display: block;
 }
@@ -937,14 +943,18 @@ a.button:hover {
 
 .page-wrapper-developer .category {
   border: 1px solid #DDDDDD;
-  background-image: url( '../images/hero-home.jpg' );
-  background-size: 130px 80px;
+  background-size: 127px 101px;
   background-position: 30px 40px;
   background-repeat: no-repeat;
   padding: 130px 30px 30px;
   margin-bottom: 30px;
   min-height: 376px;
 }
+
+.category.start { background-image: url( '../images/dev-icon-start-2x.png' ); }
+.category.guide { background-image: url( '../images/dev-icon-guidelines-2x.png' ); }
+.category.download { background-image: url( '../images/dev-icon-download-2x.png' ); }
+.category.dashboard { background-image: url( '../images/dev-icon-dashboard-2x.png' ); }
 
 .page-wrapper-developer .category h4 {
   font-size: 25px;
@@ -1057,11 +1067,11 @@ a.button:hover {
 }
 
 .page-wrapper-developer .showcaseimage {
-  background-image: url( '../images/hero-home.jpg' );
-  background-size: 80% 100%;
+  background-image: url( '../images/showcase-bunnyhopper-2x.jpg' );
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 667px;
+  height: 665px;
 }
 
 .page-wrapper-developer .showcasetext h3 {
@@ -1104,7 +1114,7 @@ a.button:hover {
   display: inline-block;
   background-color: #F2F2F2;
   height: 42px;
-  padding: 10px 15px;
+  padding: 10px 14px;
   font-size: 16px;
   font-family: Graphik Web;
   font-style: normal;
@@ -1116,11 +1126,26 @@ a.button:hover {
 /* PRESS */
 
 .hero-wrapper-press {
-  background-image: url( '../images/hero-home.jpg' );
+  background-image: url( '../images/press-hero-1920.jpg' );
   background-position: center;
-  min-height: 500px;
+  min-height: 394px;
   overflow: hidden;
   display: block;
+  background-size: cover;
+}
+
+.hero-headline-press {
+  margin-top: 190px;
+  margin-bottom: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-headline-press h1 {
+  font-size: 74px;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
 }
 
 .page-wrapper-press {
