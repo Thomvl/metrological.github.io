@@ -767,6 +767,61 @@ a.button:hover {
   margin-top: 40px;
 }
 
+.section-content-intro .text {
+  background-color: #F8F8F8;
+  font-size: 21px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
+.section-content-intro .screen {
+  min-height: 840px;
+}
+
+.section-content-intro .custom1 { background-color: #C8DCED; }
+.section-content-intro .custom2 { background-color: #E4A12A; }
+.section-content-intro .custom3 { background-color: #858B91; }
+.section-content-intro .custom4 { background-color: #D3ECFF; }
+
+.section-content-intro .team h4 {
+  font-size: 28px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+.section-content-intro .people .img {
+  background-image: url( '../images/erik-2x.png' );
+  display: inline-block;
+  background-size: 100%;
+  width: 116px;
+  height: 116px;
+}
+
+.section-content-intro .people h5 {
+  color: #161616;
+  font-size: 18px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  font-weight: 500;
+  text-transform: none;
+  margin: 20px 0 0;
+}
+
+.section-content-intro .people .title {
+  font-size: 14px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
 /* CAREERS */
 
 .page-wrapper-careers {
