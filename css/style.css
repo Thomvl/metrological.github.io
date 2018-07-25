@@ -376,6 +376,7 @@ footer li {
 }
 
 .hero-wrapper-home {
+  margin-top: 80px;
 	background-image: url( '../images/home-hero-1920-2x.jpg' );
 	background-position: center;
   background-size: cover;
@@ -538,6 +539,7 @@ a.read-more {
 /* OPERATORS */
 
 .hero-wrapper-operators {
+  margin-top: 80px;
   background-image: url( '../images/content-operators-1920.jpg' );
   background-size: cover;
   background-position: center;
@@ -628,10 +630,11 @@ a.read-more {
 /* CONTENT PROVIDERS */
 
 .hero-wrapper-content {
-  background-image: url( '../images/dev-hero-1920-2x.jpg' );
+  margin-top: 80px;
+  background-image: url( '../images/content-hero-1920-2x.jpg' );
   background-size: cover;
   background-position: center;
-  min-height: 677px;
+  min-height: 610px;
   overflow: hidden;
   display: block;
 }
@@ -657,17 +660,62 @@ a.read-more {
 }
 
 .section-content-intro .logos {
-  background-image: url( '../images/dev-hero-1920-2x.jpg' );
-  background-size: cover;
-  background-position: center;
-  min-height: 342px;
+  background-image: url( '../images/logos-operators-2x.png' );
+  background-size: 1304px 396px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 396px;
   overflow: hidden;
   display: block;
   margin: 40px auto 80px;
 }
 
+#monitize img {
+  height: 460px;
+  position: relative;
+  left: 621px;
+}
+
+#monitize .carousel-caption {
+
+}
+
 .section-content-intro .inspire {
   margin-top: 40px;
+}
+
+.section-content-intro .inspire h2 {
+  margin-bottom: 0;
+}
+
+.tech-slideshow {
+  height: 441px;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.tech-slideshow > div {
+  height: 441px;
+  width: 12791px;
+  background: url( '../images/appscreens-row-2x.jpg' );
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 90s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
 }
 
 .section-content-intro .text {
@@ -679,14 +727,98 @@ a.read-more {
   line-height: 1.5;
 }
 
-.section-content-intro .screen {
-  min-height: 840px;
+.section-content-intro .line {
+  margin-top: 20px;
+  padding: 0 20px 0;
 }
 
-.section-content-intro .custom1 { background-color: #C8DCED; }
-.section-content-intro .custom2 { background-color: #E4A12A; }
-.section-content-intro .custom3 { background-color: #858B91; }
-.section-content-intro .custom4 { background-color: #D3ECFF; }
+.section-content-intro .screen,
+.section-content-intro .text {
+  min-height: 840px;
+  position: relative;
+}
+
+.section-content-intro .text .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-content-intro .text h3 {
+  font-size: 43px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  margin-bottom: 20px;
+}
+
+.section-content-intro .text h6 {
+  font-size: 20px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.section-content-intro .text span {
+  font-size: 17px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  margin-bottom: 20px;
+  display: block;
+  margin-top: 10px;
+}
+
+.section-content-intro .text a {
+  background-color: inherit;
+  border: 1px solid #BEBEBE;
+  color: #161616;
+  padding: 20px 40px;
+  height: 65px;
+  font-size: 18px;
+  font-family: Graphik Web;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  border-radius: 4px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.section-content-intro .radioline {
+  background-image: url( '../images/case-radioline-2x.png' );
+  background-color: #C8DCED;
+}
+.section-content-intro .plex {
+  background-image: url( '../images/case-plex-2x.png' );
+  background-color: #E4A12A;
+}
+.section-content-intro .xite {
+  background-image: url( '../images/case-xite-2x.png' );
+  background-color: #858B91;
+}
+.section-content-intro .toon {
+  background-image: url( '../images/case-toongoggles-2x.png' );
+  background-color: #D3ECFF;
+}
+
+.section-content-intro .screen {
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-content-intro .build {
+  background-image: url( '../images/build-your-app-2x.jpg' );
+  background-size: cover;
+}
+
+.section-content-intro .team {
+  margin-top: 80px;
+}
 
 .section-content-intro .team h4 {
   font-size: 28px;
@@ -698,11 +830,22 @@ a.read-more {
 }
 
 .section-content-intro .people .img {
-  background-image: url( '../images/erik-2x.png' );
   display: inline-block;
   background-size: 100%;
   width: 116px;
   height: 116px;
+}
+
+.section-content-intro .people .robert {
+  background-image: url( '../images/portrait-robert-2x.png' );
+}
+
+.section-content-intro .people .ludo {
+  background-image: url( '../images/portrait-ludo-2x.png' );
+}
+
+.section-content-intro .people .mehaal {
+  background-image: url( '../images/portrait-mehaal-2x.png' );
 }
 
 .section-content-intro .people h5 {
@@ -723,6 +866,22 @@ a.read-more {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
+}
+
+.section-content-intro .people a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  margin-top: 15px;
+}
+
+.section-content-intro .people .mail {
+  background-image: url( '../images/contact-mail-2x.png' );
+}
+
+.section-content-intro .people .linkedin {
+  background-image: url( '../images/contact-linkedin-2x.png' );
 }
 
 /* CAREERS */
@@ -858,6 +1017,7 @@ blockquote footer:before {
 /* DEVELOPERS */
 
 .hero-wrapper-developer {
+  margin-top: 80px;
   background-image: url( '../images/dev-hero-1920-2x.jpg' );
   background-size: cover;
   background-position: center;
@@ -1055,6 +1215,7 @@ blockquote footer:before {
 /* PRESS */
 
 .hero-wrapper-press {
+  margin-top: 80px;
   background-image: url( '../images/press-hero-1920.jpg' );
   background-position: center;
   min-height: 394px;
