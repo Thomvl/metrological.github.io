@@ -237,6 +237,26 @@
     height: 465px;
   }
 
+  .page-wrapper-contact h2 {
+    margin-top: 80px;
+  }
+
+  .page-wrapper-careers blockquote {
+    text-align: center;
+    margin: 0;
+    min-height: 230px;
+    background-position: center 100%;
+  }
+
+  blockquote p {
+    padding: 0;
+  }
+
+  blockquote footer {
+    position: relative;
+    padding: 0;
+  }
+
   .hero-wrapper-press {
     background-image: url( '../images/press-hero-414.jpg' );
   }
@@ -291,6 +311,10 @@
 
   .page-wrapper-developer .showcaseimage {
     height: 300px;
+  }
+
+  .page-wrapper-careers blockquote {
+    min-height: 270px;
   }
 
   .hero-wrapper-press {
