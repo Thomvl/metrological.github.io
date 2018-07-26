@@ -13,6 +13,10 @@
 		margin-top: 4px;
 	}
 
+  .page-wrapper-operators .logos img {
+    width: 150px;
+  }
+
   .hero-wrapper-press {
     background-image: url( '../images/press-hero-1024.jpg' );
   }
@@ -150,6 +154,10 @@
     display: block;
   }
 
+  .page-wrapper-operators .logos img {
+    width: 225px;
+  }
+
   .hero-wrapper-press {
     background-image: url( '../images/press-hero-768.jpg' );
   }
@@ -195,6 +203,10 @@
 
 	.section-home-intro h3 { font-size: 18px; }
 
+  .page-wrapper-operators .logos img {
+    width: 170px;
+  }
+
   .hero-wrapper-press {
     background-image: url( '../images/press-hero-414.jpg' );
   }
@@ -233,6 +245,14 @@
   .hero-headline-press h4 { font-size: 20px; }
 
 	.parent { height: 244px; }
+
+  .page-wrapper-operators .logos img {
+    width: 115px;
+  }
+
+  .page-wrapper-operators .more a {
+    padding: 20px 10px;
+  }
 
   .hero-wrapper-press {
     background-image: url( '../images/press-hero-320.jpg' );
