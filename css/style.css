@@ -57,7 +57,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  color: #3B3B3B;
+  color: #535353;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   height: 100%;
@@ -79,7 +79,7 @@ h1, h2, h3, h4 {
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  color: #232323;
+  color: #161616;
 }
 
 h5, h6, {
@@ -87,7 +87,7 @@ h5, h6, {
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  color: #232323;
+  color: #161616;
 }
 
 h1 { font-size: 46px; line-height: 1.0; margin-bottom: 20px; }
@@ -98,7 +98,7 @@ h4 { font-size: 22px; line-height: 1.5; margin-bottom: 3px; }
 h5 {
   font-size: 16px;
   text-transform: uppercase;
-  color: #a9a9a9;
+  color: #161616;
   letter-spacing: 0.8px;
   font-style: normal;
   margin: 0 0 20px 0;
@@ -108,7 +108,7 @@ h5 {
 .full-width {
   width: 100vw;
   position: relative;
-  left: 50%;
+  left: 49%;
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
@@ -419,7 +419,7 @@ footer li {
 }
 */
 
-a.read-more {
+.hero-headline-home a.read-more {
 	font-family: Graphik Web;
 	font-weight: 500;
 	font-style: normal;
@@ -1084,6 +1084,33 @@ blockquote footer:before {
   display: block;
 }
 
+.hero-headline-developers {
+  margin-top: 170px;
+  margin-bottom: auto;
+  width: 45%;
+  text-align: left;
+}
+
+.hero-headline-developers h1 {
+  font-size: 54px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
+}
+
+.hero-headline-developers span {
+  font-size: 29px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
+}
+
 .page-wrapper-developer {
   margin: 74px 0 80px 0;
 }
@@ -1154,10 +1181,10 @@ blockquote footer:before {
   background-color: #F2F2F2;
   min-height: 350px;
   margin-top: 40px;
-  padding-top: 80px;
 }
 
 .page-wrapper-developer .support h3 {
+  margin-top: 80px;
   font-size: 28px;
   font-family: Graphik Web;
   font-style: normal;
