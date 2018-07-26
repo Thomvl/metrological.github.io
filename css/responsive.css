@@ -2,14 +2,6 @@
 
 @media handheld, only screen and ( max-width: 1440px ) {
 	.hero-wrapper { min-height: 670px; }
-
-	.hero-headline-home {
-  	margin-top: 100px;
-  	width: 490px;
-  	text-align: left;
-  	top: 120px;
-  	position: absolute;
-	}
 }
 
 @media handheld, only screen and ( max-width: 1200px ) {
@@ -40,16 +32,9 @@
 
 @media handheld, only screen and ( max-width: 992px ) {
 	header { min-height: 60px; }
-	body { padding-top: 60px; }
+	body { margin-top: -15px; }
 	#logo img { height: 30px; width: auto; }
 	#nav-mobile { display: block; }
-
-	.hero-headline-home {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-  }
 
 	#nav {
 		float: none;
@@ -203,9 +188,6 @@
 		background-size: cover;
 	}
 
-	.hero-headline-home { top: 70px; width: 70%; }
-	.hero-headline-home h1 { font-size: 44px; }
-
   .hero-headline-operators {
     width: 100%;
     text-align: center;
@@ -241,10 +223,9 @@
 		background-size: cover;
 	}
 
-	.hero-headline-home { top: 40px; width: 90%; }
+	.hero-headline-home { top: 40px; width: 90%; margin-top: 190px; }
 
-  .hero-headline-home h1 { font-size: 32px; }
-	.hero-headline-home h4 { font-size: 20px; }
+  .hero-headline-home h1 { font-size: 58px; }
 
   .hero-headline-press { top: 40px; width: 90%; }
 
