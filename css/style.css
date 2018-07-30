@@ -639,6 +639,33 @@ footer li {
   display: block;
 }
 
+.hero-headline-content {
+  margin-top: 170px;
+  margin-bottom: auto;
+  width: 60%;
+  text-align: left;
+}
+
+.hero-headline-content h1 {
+  font-size: 54px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
+}
+
+.hero-headline-content span {
+  font-size: 29px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
+}
+
 .page-wrapper-content {
   margin: 74px 0 80px 0;
 }
