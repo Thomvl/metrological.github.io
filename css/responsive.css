@@ -17,6 +17,8 @@
 		margin-top: 4px;
 	}
 
+  .close { top: 70px; }
+
   .page-wrapper-operators .logos img {
     width: 150px;
   }
@@ -51,6 +53,11 @@
 	body { margin-top: -15px; }
 	#logo img { height: 30px; width: auto; }
 	#nav-mobile { display: block; }
+
+  .close {
+    top: 65px;
+    right: 20px;
+  }
 
 	#nav {
 		float: none;
@@ -197,6 +204,10 @@
 		height: 26px;
 	}
 
+  .close {
+    top: 40px;
+  }
+
   .page-wrapper-contact {
     margin: 40px 0 80px 0;
   }
@@ -284,6 +295,8 @@
 		background-position: center;
 		background-size: cover;
 	}
+
+  .close { top: 25px; }
 
 	.hero-headline-home { top: 40px; width: 90%; margin-top: 190px; }
 

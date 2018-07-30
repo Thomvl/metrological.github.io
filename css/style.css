@@ -829,7 +829,7 @@ footer li {
 }
 
 .tech-slideshow .mover-1 {
-  animation: moveSlideshow 90s linear infinite;
+  animation: moveSlideshow 120s linear infinite;
 }
 
 @keyframes moveSlideshow {
