@@ -1,4 +1,4 @@
-( function() {
+document.addEventListener( `DOMContentLoaded`, function() {
   var s = false
   , b = document.querySelector( '.burger-container' )
   , m = document.querySelector( '.menu' )
@@ -20,4 +20,16 @@
     dp.classList.toggle( o )
     s = true
   }
-}() )
+} )
+
+function play() {
+  document.getElementById( 'overlay' ).style.display = 'block'
+  document.getElementById( 'video' ).play()
+  document.body.style.overflow = 'hidden'
+}
+
+function close() {
+  document.getElementById( 'video' ).load()
+  document.getElementById( 'overlay' ).style.display = 'none'
+  document.body.style.overflow = 'visible'
+}
