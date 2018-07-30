@@ -24,8 +24,10 @@ document.addEventListener( `DOMContentLoaded`, function() {
 
 function play() {
   document.getElementById( 'overlay' ).style.display = 'block'
-  document.getElementById( 'video' ).play()
   document.body.style.overflow = 'hidden'
+  var vid = document.getElementById( 'video' )
+  vid.play()
+  vid.onended = close
 }
 
 function close() {
