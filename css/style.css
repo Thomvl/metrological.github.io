@@ -819,17 +819,32 @@ footer li {
 .tech-slideshow > div {
   height: 441px;
   width: 12791px;
-  background: url( '../images/appscreens-row-2x.jpg' );
+  background: url( '../images/apps-2x.jpg' );
   background-size: contain;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   transform: translate3d(0, 0, 0);
 }
 
+.page-wrapper-careers .tech-slideshow > div {
+  height: 523px;
+  width: 8228px;
+  background: url( '../images/careers-2x.jpg' );
+  background-size: contain;
+}
+
+.page-wrapper-careers .tech-slideshow {
+  height: 523px;
+}
+
+
 .tech-slideshow .mover-1 {
   animation: moveSlideshow 120s linear infinite;
+}
+
+.page-wrapper-careers .tech-slideshow .mover-1 {
+  animation: moveSlideshow 90s linear infinite;
 }
 
 @keyframes moveSlideshow {
