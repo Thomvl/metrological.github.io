@@ -136,9 +136,11 @@
             </div>
           </div>
           <div class="row support full-width">
-            <div class="col-md-4 col-md-offset-4 text-center">
-              <h3>Do you have questions about our SDK or need support? We’re here to help.</h3>
-              <a href="https://metrological.atlassian.net/servicedesk/customer/portal/1">Go to our Support Page</a>
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <div class="support-text">
+                <h3>Do you have questions about our SDK or need support? We’re here to help.</h3>
+                <a href="https://metrological.atlassian.net/servicedesk/customer/portal/1">Go to our Support Page</a>
+              </div>
             </div>
           </div>
           <div class="row showcasetitle">
@@ -150,14 +152,15 @@
           <div class="row showcaseimage full-width"></div>
           <div class="row showcasetext">
             <div class="col-md-6 col-md-offset-3">
-              <h3 class="text-center">Bunny Hopper</h3>
-              <p>Bunnyhopper is a 2D multiplayer platform game in which players can compete against one another at several different levels. The players can use their mobile phones as game controllers.</p>
-              <p>No native app is needed for the controller, as it can be opened directly in the smartphone browser. The player’s keystrokes are sent to the STB via MAF Rooms. The game runs entirely in Canvas (in a WebGL context), which uses a WebGL framework developed in-house.</p>
-              <h4 class="text-center">Techniques used</h4>
+              <h3 class="text-center">Airbrush</h3>
+              <p>Airbrush is a group game in which one player draws a word, and the rest of the group has to guess what he or she is drawing.</p>
+              <p>To draw, the player uses the smartphone as a mouse, and the telephone communicates its exact position in relation to the TV to the STB. Instead of using a native app, the game uses a web app that can read the smartphone’s gyroscope.</p>
+              <p>The phone’s position is then sent to the STB via MAF rooms (websockets). The app on the STB receives the positions and draws the phone’s movements on Canvas (2D context).</p>
+              <h4 class="text-center">Technologies</h4>
               <ul class="text-justify">
                 <li>JavaScript</li>
                 <li>MAF Rooms (WebSockets)</li>
-                <li>Canvas (WebGL context)</li>
+                <li>Canvas</li>
               </ul>
             </div>
           </div>
