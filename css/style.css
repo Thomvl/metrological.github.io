@@ -813,7 +813,7 @@ footer li {
 #monitize img {
   height: 460px;
   position: relative;
-  left: 621px;
+  left: 47%;
 }
 
 #monitize h3 {
@@ -844,6 +844,12 @@ footer li {
   background-color: transparent;
 }
 
+#monitize .carousel-caption {
+  width: 25%;
+  text-align: left;
+  padding-bottom: 140px;
+}
+
 #monitize .carousel-indicators li {
   width: 13px;
   height: 13px;
@@ -862,16 +868,16 @@ footer li {
   height: 13px !important;
 }
 
-#monitize .left {
-  /*background-image: url( '../images/arrow-prev-2x.png' );*/
-  left: -170px;
+#monitize .carousel-control.left {
+  background-image: url( '../images/arrow-prev-2x.png' );
   background-color: transparent;
+  background-repeat: no-repeat;
 }
 
-#monitize .right {
-  /*background-image: url( '../images/arrow-next-2x.png' );*/
-  left: 1140px;
+#monitize .carousel-control.right {
+  background-image: url( '../images/arrow-next-2x.png' );
   background-color: transparent;
+  background-repeat: no-repeat;
 }
 
 .section-content-intro .inspire {
