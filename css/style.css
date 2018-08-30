@@ -626,23 +626,26 @@ footer li {
 }
 
 .page-wrapper-operators .ottintegrate {
-  padding-top: 220px;
-  padding-bottom: 220px;
-  background-color: #2a2f31;
+  padding-top: 320px;
+  padding-bottom: 320px;
+  background-image: url( '../images/bg-integrate.jpg' );
+  background-size: cover;
+  background-position: center;
   color: #fff;
-  margin-bottom: 80px;
-}
-
-.page-wrapper-operators .ottintegrate h2 {
-  color: #fff;
+  margin-bottom: 70px;
 }
 
 .page-wrapper-operators .uxtools-intro {
-  padding-bottom: 80px;
+  padding-bottom: 110px;
+}
+
+.page-wrapper-operators h2 {
+  margin-bottom: 30px;
 }
 
 .page-wrapper-operators .uxtools-intro p.intro {
   margin-bottom: 90px;
+  font-size: 21px;
 }
 
 .page-wrapper-operators .ux-tool {
