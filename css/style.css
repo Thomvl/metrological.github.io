@@ -57,8 +57,8 @@ body {
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  color: #535353;
-  font-size: 16px;
+  color: #3b3b3b;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1;
@@ -98,16 +98,8 @@ h1 { font-size: 46px; line-height: 1.0; margin-bottom: 20px; }
 h2 { font-size: 42px; line-height: 1.2; margin-bottom: 22px; }
 h3 { font-size: 22px; line-height: 1.4; margin-bottom: 5px; }
 h4 { font-size: 22px; line-height: 1.5; margin-bottom: 3px; }
-
-h5 {
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #161616;
-  letter-spacing: 0.8px;
-  font-style: normal;
-  margin: 0 0 20px 0;
-  line-height: 1.7;
-}
+h5 { font-size: 16px; line-height: 1.8; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.8px;}
+h6 { font-size: 17px; line-height: 1.8; margin-bottom: 5px;}
 
 p {
   color: #3b3b3b;
@@ -120,6 +112,10 @@ p.intro {
   font-size: 23px;
   line-height: 1.4;
   color: #505050;
+}
+
+a, a:hover {
+    color: #358EBA;
 }
 
 .full-width {
@@ -1621,3 +1617,24 @@ a.press-headlines {
   font-size: 17px;
   line-height: 30px;
 }
+
+/* PRIVACY STATEMENTS*/
+
+.page-wrapper-privacy {
+    margin: 180px 0;
+    overflow: hidden;
+}
+
+.page-wrapper-privacy h4 {
+  margin-top: 48px;
+}
+
+.page-wrapper-privacy li {
+  line-height: 1.8;
+}
+
+.page-wrapper-privacy ul {
+  margin-bottom: 28px;
+  padding-left: 20px;
+}
+
