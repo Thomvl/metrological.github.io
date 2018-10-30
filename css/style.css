@@ -617,18 +617,18 @@ footer li {
   line-height: 1.5;
 }
 
-.app-grid {
+.page-wrapper-operators .app-grid {
   margin: 40px auto;
   width: 100%;
 }
 
-.app-grid-single {
+.page-wrapper-operators .app-grid-single {
   width: 16.6%;
   float: left;
   padding: 6px;
 }
 
-.app-grid-single img {
+.page-wrapper-operators .app-grid-single img {
   box-shadow: 2px 20px 30px 2px rgba(0,0,0,0.2);
 }
 
@@ -791,12 +791,12 @@ footer li {
   margin-bottom: 34px;
 }
 
-.logo-grid {
+.page-wrapper-content .logo-grid {
   margin: 0 auto 80px auto;
   width: 80%;
 }
 
-.logo-grid p {
+.page-wrapper-content .logo-grid p {
   margin: 0 auto 38px auto;
   text-align: center;
   font-size: 13px;
@@ -805,13 +805,13 @@ footer li {
   letter-spacing: 1px;
 }
 
-.logo-grid-single {
+.page-wrapper-content .logo-grid-single {
   width: 16.6%;
   float: left;
   padding: 5px;
 }
 
-.logo-grid-single img {
+.page-wrapper-content .logo-grid-single img {
   box-shadow: 4px 10px 20px 4px rgba(0,0,0,0.1);
 }
 
