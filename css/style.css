@@ -67,6 +67,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 /* BASE STYLES */
@@ -1446,3 +1447,61 @@ a.press-headlines {
   padding-left: 20px;
 }
 
+/* WHITE PAPER */
+
+.hero-wrapper-whitepaper {
+  margin-top: 80px;
+  background-image: url( '../images/whitepaper-hero-1920.jpg' );
+  background-position: center;
+  min-height: 394px;
+  overflow: hidden;
+  display: block;
+  background-size: cover;
+}
+
+.hero-headline-whitepaper {
+  margin-top: 110px;
+  margin-bottom: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-headline-whitepaper h1 {
+  font-size: 54px;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
+}
+
+.hero-headline-whitepaper span {
+  font-size: 24px;
+  font-family: Graphik Web;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff;
+  line-height: 1.15;
+  text-shadow: 3px 0px 21px rgba( 0, 0, 0, 0.42 );
+}
+
+.page-wrapper-whitepaper {
+  margin: 140px 0 230px 0;
+}
+
+.page-wrapper-whitepaper h5 {
+  margin-bottom: 29px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.page-wrapper-whitepaper p {
+  color: #3b3b3b;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.page-wrapper-whitepaper a.button {
+  margin-top: 30px;
+}
