@@ -1339,6 +1339,7 @@ footer li {
 .page-wrapper-press h2 {
   font-size: 40px;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 a.press-headlines {
@@ -1352,7 +1353,7 @@ a.press-headlines {
 }
 
 .page-wrapper-press ul {
-  margin: 10px 0;
+  margin: 10px 0 40px 0;
   padding: 0;
   border-top: 1px solid #E2E2E2;
 }
@@ -1484,7 +1485,7 @@ a.press-headlines {
 }
 
 .page-wrapper-whitepaper {
-  margin: 140px 0 230px 0;
+  margin: 110px 0 230px 0;
 }
 
 .page-wrapper-whitepaper h5 {
@@ -1497,11 +1498,17 @@ a.press-headlines {
 
 .page-wrapper-whitepaper p {
   color: #3b3b3b;
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 17px;
 }
 
 .page-wrapper-whitepaper a.button {
   margin-top: 30px;
+}
+
+.page-wrapper-whitepaper .whitepaper-img {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
