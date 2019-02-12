@@ -166,10 +166,9 @@
 /* ----------------------------------------------------------- */
 @media handheld, only screen and ( max-width: 768px ) {
 
-	.social-icons img {
-		width: auto;
-		height: 26px;
-	}
+  .cookie-text {display: block;}
+
+  .social-icons img {width: auto; height: 26px;}
 
   .close {top: 40px;}
 

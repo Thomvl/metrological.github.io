@@ -393,6 +393,7 @@ footer li {
   opacity: 1.0;
 }
 
+
 /* HOME */
 
 .page-wrapper-home {
@@ -782,7 +783,7 @@ footer li {
 
 .section-content-intro h2 {
   font-size: 45px;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .section-content-intro p {
@@ -1511,4 +1512,63 @@ a.press-headlines {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+
+/* COOKIES */
+
+#cookie-banner {
+  position: fixed;
+  z-index: 1001;
+  bottom: 0;
+  background-color: #151515;
+  text-align: center;
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 24px;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.cookie-text {
+  margin: 14px;
+  color: #b3b3b3;
+  line-height: 1.4;
+  display: inline-block;
+}
+
+a.cookies-btn-accept {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  margin: 8px 8px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #fff;
+  color: #151515;
+  transition: all 0.3s;
+}
+
+a.cookies-btn-accept:hover {
+  background-color: #c0c0c0;
+  border: 1px solid #c0c0c0;
+  color: #000;
+}
+
+a.cookies-btn-more {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #cfcfcf;
+  margin: 8px 8px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: inherit;
+  color: #ececec;
+  transition: all 0.3s;
+}
+
+a.cookies-btn-more:hover {
+  border: 1px solid #727272;
 }
